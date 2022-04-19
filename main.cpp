@@ -98,6 +98,9 @@ int main(){
 			        xuatFile(ds, n, fileName);
                     printf("\nXuat DSSV thanh cong vao file %s!", fileName);
 					break;
+			case 0:
+				        exit(0);
+				        break;
 		}
 	} while(n!=0);
 	}else{
